@@ -1,0 +1,1 @@
+initSidebarItems({"macro":[["list","Construct a list from a sequence of elements."]],"mod":[["list","Cons List"]]});

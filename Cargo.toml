@@ -1,6 +1,0 @@
-[package]
-name = "im"
-version = "1.0.0"
-authors = ["Bodil Stokke <bodil@bodil.org>"]
-
-[dependencies]

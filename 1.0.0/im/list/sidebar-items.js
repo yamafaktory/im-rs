@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["List","A list of elements of type A."]],"fn":[["cons","Prepend a value to a list."]],"struct":[["ListIter",""]]});

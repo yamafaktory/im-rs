@@ -14,7 +14,9 @@ keywords = ["immutable", "persistent"]
 travis-ci = { repository = "bodil/im-rs" }
 
 [dependencies]
+thunk = { version = "0.3.0", optional = true }
 quickcheck = { version = "0.4.1", optional = true }
 
 [dev-dependencies]
+thunk = "0.3.0"
 quickcheck = "0.4.1"

@@ -44,6 +44,9 @@
 //! of their enjoyment of the word 'snoc,' even though it's
 //! reportedly not a readily intuitive term).
 
+#[cfg(any(test, feature = "thunk"))]
+extern crate thunk;
+
 #[cfg(any(test, feature = "quickcheck"))]
 #[macro_use]
 extern crate quickcheck;
@@ -58,6 +61,9 @@ pub mod set;
 pub mod queue;
 pub mod list;
 pub mod iter;
+
+#[cfg(any(test, feature = "thunk"))]
+pub mod lazy;
 
 pub use conslist::ConsList;
 pub use map::Map;
